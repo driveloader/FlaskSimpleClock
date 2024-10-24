@@ -26,7 +26,7 @@ A simple, modern, and responsive web-based Python clock using Flask.
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/simpleclock.git
+   git clone https://github.com/driveloader/simpleclock.git
    cd simpleclock
    ```
 

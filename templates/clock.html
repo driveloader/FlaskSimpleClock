@@ -91,11 +91,10 @@
             transform: translateY(-4px);
         }
 
-        /* Button Styles */
         .buttons {
-            margin-top: 30px; /* Space above buttons */
+            margin-top: 30px; 
             display: flex;
-            gap: 20px; /* Space between buttons */
+            gap: 20px; 
         }
 
         button {
@@ -128,8 +127,8 @@
                 padding: 8px 15px;
             }
             button {
-                font-size: 1rem; /* Smaller button font */
-                padding: 10px 15px; /* Smaller button padding */
+                font-size: 1rem; 
+                padding: 10px 15px; 
             }
         }
     </style>
@@ -193,7 +192,7 @@
         document.getElementById('timezones').addEventListener('change', updateClock);
 
         setInterval(updateClock, 1000);
-        updateClock();  // Run once immediately to avoid delay
+        updateClock(); 
     </script>
 </body>
 </html>

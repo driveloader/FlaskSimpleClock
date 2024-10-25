@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    now = datetime.utcnow()  # Use UTC time as the base time
+    now = datetime.utcnow()  
     current_time = now.strftime("%H:%M:%S")
     return render_template('clock.html', time=current_time)
 
